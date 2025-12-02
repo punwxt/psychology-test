@@ -20,18 +20,6 @@ body {
     z-index: -1; /* ส่งไปหลังสุด */
 }
 
-/* เปลี่ยนภาพตามอุปกรณ์ */
-@media (max-width: 1024px) {
-    .bg-image {
-        content: url("bg-tablet.jpg");
-    }
-}
-
-@media (max-width: 600px) {
-    .bg-image {
-        content: url("bg-mobile.jpg");
-    }
-}
 
 /* ---------------------------- */
 /*         CENTER CONTENT        */
